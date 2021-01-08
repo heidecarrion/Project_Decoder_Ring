@@ -5,8 +5,13 @@
 //In order to ignore uppercase letters
 //Declare output as a string
 //If statement checks to see if input is a string
-//Returns false immediately if not
-//
+//Returns false immediately if not a string
+//Checks for value is a string
+//Checks for 42 to be i or j
+//Returns encryption message
+//Else checks for number pairs
+//Checks against square object
+//Returns unencrypted message
 
 function polybius(input, encode = true) {
     const square = {
